@@ -1,2 +1,2 @@
-# sdcc-badgereq
-SDCC Badge Requester
+# contourage-sbr
+CONtourage SDCC Badge Requester
