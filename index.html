@@ -2,29 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>CONtourage SDCC Badge Requester</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to CONtourage SDCC Badge Requester...</title>
+  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzhYqZySKEoteLamYHNjlqq1OTjDkUmtSsg4JI2jZJ1B8Q0JoNtgPUEc2j0Lgtkgx5i/exec">
   <style>
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
       background: #0f172a;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
     }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid rgba(255,255,255,0.1);
+      border-top-color: #38bdf8;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin-bottom: 16px;
     }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    a { color: #38bdf8; text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
   </style>
+  <script>
+    window.location.replace("https://script.google.com/macros/s/AKfycbzhYqZySKEoteLamYHNjlqq1OTjDkUmtSsg4JI2jZJ1B8Q0JoNtgPUEc2j0Lgtkgx5i/exec");
+  </script>
 </head>
 <body>
-  <iframe 
-    src="https://script.google.com/macros/s/AKfycbzhYqZySKEoteLamYHNjlqq1OTjDkUmtSsg4JI2jZJ1B8Q0JoNtgPUEc2j0Lgtkgx5i/exec" 
-    allow="clipboard-write; clipboard-read">
-  </iframe>
+  <div class="spinner"></div>
+  <p>Launching CONtourage SDCC Badge Requester...</p>
+  <p style="font-size: 0.8rem; color: #94a3b8; margin-top: 8px;">
+    If you are not redirected automatically, 
+    <a href="https://script.google.com/macros/s/AKfycbzhYqZySKEoteLamYHNjlqq1OTjDkUmtSsg4JI2jZJ1B8Q0JoNtgPUEc2j0Lgtkgx5i/exec">click here</a>.
+  </p>
 </body>
 </html>
